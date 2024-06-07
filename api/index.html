@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRENINJA</title>
+</head>
+<body>
+        <style>
+            body{
+        background-color: blue;
+        }
+        .pokeimg1{
+            position: absolute;
+            color: black;
+            
+        }
+        .pokeImg{
+            width: 75px;
+            height: 75px;
+            position: absolute;
+            top: 395px;
+            left: 255px;
+        }
+        button{
+            width: 55px;
+            height: 55px;
+            background-color:blue;
+            border-color:red;
+            border-radius: 50px;
+            position: absolute;
+            left: 95px;
+            top: 562px;
+        }
+        .placeholder{
+            width: 112px;
+            height: 72px;
+            position: absolute;
+            top: 590px;
+            left: 177px;
+            background-color:azure;
+            color: black;
+        }
+    </style>
+    <img src="pokedex.png" alt="Pokedex" width="1000px">
+    <input type="text" placeholder="GRENINJA" id="pokeName" class="placeholder">
+    <img src="pokeboll.jpg" alt="pokebola" id="pokeImg"  class="pokeImg">
+
+    <h3 class="pokeimg1" style="left: 605px; top: 242px; font-size: 12.5px;color: white;transform: rotate(-2deg);"></h3>
+    <div id="pokename" class="pokeimg1" style="left:605px; top: 390px; font-size:13px;"></div>
+    <div id="pokeHe" class="pokeimg1" style="left:665px; top: 385px; font-size:18px;"></div>
+    <div id="pokeWe" class="pokeimg1" style="left:725px; top: 385px; font-size:20px;"></div>
+    <div id="poketype" class="pokeimg1" style="left:795px; top: 385px; font-size:20px;"></div>
+    <div id="pokenitem" class="pokeimg1" style="left:848px; top: 385px; font-size:20px;"></div>
+    <div id="pokemove1" class="pokeimg1" style="left:605px; top: 430px; font-size:20px;"></div>
+    <div id="pokemove2" class="pokeimg1" style="left:665px; top: 430px; font-size:20px;"></div>
+    <div id="pokemove3" class="pokeimg1" style="left:730px; top: 430px; font-size:20px;"></div>
+    <div id="pokemove4" class="pokeimg1" style="left:790px; top: 430px; font-size:20px;"></div>
+    <div id="pokeid" class="pokeimg1" style="left: 853px; top: 430px; font-size:20px;"></div>
+    <div id="pokeinfo" class="pokeimg1" style="left: 600px; top: 520px; font-size:25px;"></div>
+    <div id="pokeinfo" class="pokeimg1" style="left: 660px; top: 520px; font-size:25px;"></div>
+    <div id="pokeorder" class="pokeimg1" style="left:605px; top: 610px; font-size:25px; color: white;"></div>
+    <div id="pokeorder" class="pokeimg1" style="left:780px; top: 610px; font-size:27px; color: white;"></div>
+
+    <button onclick="https://hp-api.herokuapp.com/api/characters/house/gryffindor" class="button"></button>
+    <script src="chart.js">
+
+    </script>
+
+</body>
+</html>
